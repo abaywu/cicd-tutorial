@@ -9,7 +9,8 @@
 - CICD.md
     - 說明文件
 
-## 範例專案
+## 範例專案程式檔
 
-example
+/helloworld/hello.py
+
 
