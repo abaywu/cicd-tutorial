@@ -1,0 +1,23 @@
+kind: pipeline
+type: docker
+name: develop
+
+steps:
+  - name: test-code
+    image: github/super-linter
+    environment:
+      RUN_LOCAL: true
+      USE_FIND_ALGORITHM: true
+      DEFAULT_WORKSPACE: /drone/src/src
+    when:
+      branch: ["master"]
+  # - name: build-code
+  #   image: plugins/docker
+  #   settings:
+  #     insecure: true
+  #     registry: 192.168.1.2:5000
+  #     repo: 192.168.1.2:5000/abay/hello
+  #     tags: [dev]
+  #     dockerfile: Dockerfile
+  #   when:
+  #     branch: ["master"]
