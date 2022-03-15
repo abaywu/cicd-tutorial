@@ -6,11 +6,16 @@
 
 - 如何縮短系統軟體開發週期?
 - 報bug並且修正能不能更有效率?
+- 
 - 這跟DevOps有沒有關係？
 
 ## 什麼是CI/CD?
 
-何謂 CI/CD? CI是 Continuous Integration，CD是 Continuous Deployment，也就是持續整合與持續部署。簡單來說，就是把一些日常的建置環境、測試、build，一直到部署都交給自動化的工具。
+何謂 CI/CD? CI是 Continuous Integration，CD是 Continuous Deployment(Delivery)，也就是持續整合與持續部署。簡單來說，就是把一些日常的建置環境、測試、build，一直到部署都交給自動化的工具。
+
+- Continuous integration (CI) automatically builds, tests, and integrates code
+- Continuous delivery (CD) automatically delivers code changes to production-ready environments
+- Continuous deployment (CD) automatically deploys code changes to customers directly
 
 ## DevOps
 
