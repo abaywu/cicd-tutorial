@@ -17,6 +17,13 @@
 - Continuous delivery (CD) automatically delivers code changes to production-ready environments
 - Continuous deployment (CD) automatically deploys code changes to customers directly
 
+常用CI工具
+
+- [Drone CI](https://www.drone.io/)
+- [TeamCity](https://www.jetbrains.com/teamcity/)
+- [Travis CI](https://travis-ci.org/)
+- [Circle CI](https://circleci.com/)
+
 ## DevOps
 
 ![DevOps](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png)
@@ -24,6 +31,15 @@
 DevOps（Development和Operations的組合詞）是一種重視「軟體開發人員（Dev）」和「IT運維技術人員（Ops）」之間溝通合作的文化、運動或慣例。通過自動化「軟體交付」和「架構變更」的流程，來使得構建、測試、發布軟體能夠更加地快捷、頻繁和可靠。
 
 ## Git Flow
+
+Git參考內容：
+
+- [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
+- [為你自己學 Git](https://gitbook.tw/)
+
+自己架設Git Server:
+
+- [Gitea](https://gitea.io/zh-tw/)
 
 專案開發一切重程式碼的本版控制開始。所有的參與的開發人員，如果可以遵循同一個規則來管理程式碼，如此一來在CI/CD的流程上便可以輕易管理。
 
